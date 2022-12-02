@@ -1,0 +1,2 @@
+<div class="container" *ngIf="!isLoggedOn()">Please login to continue</div>
+<div class="container" *ngIf="isLoggedOn()" routerLink="list-trips"></div>
